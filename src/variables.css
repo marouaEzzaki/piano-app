@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+
+  --font-family: 'Source Sans 3', sans-serif;
+
+  --fw-light: 200;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 800;
+
+  --color-primary: black;
+  --color-secondary: white;
+  --color-secondary-dark: #c7c7c7;
+  --color-tertiary: #ececec;
+  --color-quaternary: #272626;
+  --color-scrollbar-thumb : #625e5e;
+  --color-scrollbar-hover : #898787; /*rgb(143, 142, 142)*/
+  --color-scrollbar : rgb(47, 47, 47);
+
+  --fs-xs: clamp(0.64rem, 0.04vi + 0.63rem, 0.67rem);
+  --fs-sm: clamp(0.8rem, 0.13vi + 0.77rem, 0.89rem);
+  --fs-base: clamp(1rem, 0.27vi + 0.95rem, 1.19rem);
+  --fs-md: clamp(1.25rem, 0.48vi + 1.15rem, 1.58rem);
+  --fs-lg: clamp(1.56rem, 0.79vi + 1.4rem, 2.11rem);
+  --fs-xl: clamp(1.95rem, 1.23vi + 1.7rem, 2.81rem);
+  --fs-xxl: clamp(2.44rem, 1.88vi + 2.06rem, 3.75rem);
+  --fs-xxxl: clamp(3.05rem, 2.79vi + 2.48rem, 5rem);
+
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 4rem;
+}

@@ -1,0 +1,13 @@
+.actual-note {
+  text-align: center;
+  font-size: var(--fs-xxl); 
+  font-weight: var(--fw-bold);
+  color: var(--color-secondary); 
+}
+
+.played-note {
+  text-align: center;
+  font-size: var(--fs-lg); 
+  font-weight: var(--fw-regular);
+  color: var(--color-secondary-dark);
+}

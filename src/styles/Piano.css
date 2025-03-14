@@ -1,0 +1,21 @@
+.piano {
+  display: grid;
+  grid-template-columns: repeat(208, 1rem); 
+  gap: 0;
+  width: 100%; 
+  height: 20rem; 
+  position: relative;
+  overflow-x: auto; 
+}
+.piano::-webkit-scrollbar {
+  height: var(--fs-sm);
+	background-color: var(--color-scrollbar);
+}
+.piano::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar-thumb); 
+  border-radius: var(--spacing-xs);
+}
+
+.piano::-webkit-scrollbar-thumb:hover {
+  background: var(--color-scrollbar-hover);
+}

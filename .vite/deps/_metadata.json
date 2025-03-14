@@ -1,0 +1,37 @@
+{
+  "hash": "28516ee4",
+  "configHash": "741d67be",
+  "lockfileHash": "410cc085",
+  "browserHash": "973b8083",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "c3ee9032",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "e66d0546",
+      "needsInterop": true
+    },
+    "use-sound": {
+      "src": "../../node_modules/use-sound/dist/use-sound.esm.js",
+      "file": "use-sound.js",
+      "fileHash": "c2f0dc7b",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-NVAVHLZZ": {
+      "file": "chunk-NVAVHLZZ.js"
+    },
+    "howler-NNE6GZHK": {
+      "file": "howler-NNE6GZHK.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
